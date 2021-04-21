@@ -1,0 +1,39 @@
+.video{
+position: fixed;
+width: 100vw;
+z-index: -1;
+}
+
+*,*::before,*::after{
+    margin:0;
+    border: none;
+    outline:none;
+    padding:0;
+}
+.container{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.wrap{
+display: flex;
+align-items: center;
+flex-direction:column;	
+justify-content: space-between;
+padding: 60px 70px;
+background: #222;
+border-radius: 12px;
+border: 2px solid #4d4cff;
+}
+
+input{
+margin: 8px 0;
+}
+.btn{
+margin-top: 20px;
+}
+input, .btn {
+font-size: 20px;
+}
+
